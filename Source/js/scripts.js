@@ -4,10 +4,10 @@ var mySwiper = new Swiper('.swiper-container', {
   direction: 'horizontal',
   loop: true,
   speed: 800,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   effect: 'fade',
 })
 
