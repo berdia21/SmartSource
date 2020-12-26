@@ -1,0 +1,48 @@
+input {
+  height: 50px;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  text-align: center;
+  font-size: 14px;
+  background-color: rgba(#fff, 0.2);
+  color: #fff;
+  padding: 10px 20px;
+  transition: $transition;
+
+  &:focus {
+    background-color: $gray;
+  }
+
+  &::placeholder {
+    color: #BEBEBE;
+  }
+
+  &:-ms-input-placeholder {
+    color: #BEBEBE;
+  }
+}
+
+.input_container {
+  width: 100%;
+  max-width: 255px;
+}
+
+.submit_btn {
+  width: 100%;
+  max-width: 255px;
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color: $gold;
+  transition: $transition;
+  font-weight: 700;
+  min-height: 50px;
+  overflow: hidden;
+
+  &:hover {
+    background-color: darken($gold, 10%);
+  }
+}

@@ -1,0 +1,584 @@
+@media (max-height: 760px) and (min-width: 1200px) {
+  #video_wrapper {
+    height: 79vh;
+    width: 82vh;
+
+    &.wide {
+      width: 141vh;
+    }
+  }
+}
+
+
+// width
+@media (max-width: 1599px) {
+  .benefits_section .container::before {
+    right: -120px;
+    font-size: 320px;
+  }
+
+  .apartments_section .container::before {
+    left: -100px;
+    font-size: 320px;
+  }
+
+  .video_section .container::before {
+    right: -80px;
+    font-size: 320px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .benefits_section .container::before {
+    right: -80px;
+    top: -100px;
+    font-size: 300px;
+  }
+
+  .apartments_section .container::before {
+    left: -80px;
+    font-size: 300px;
+    top: 0;
+  }
+
+  .map_section .container::before {
+    font-size: 300px;
+    left: -80px;
+    top: 0;
+  }
+
+  .video_section .container::before {
+    right: -20px;
+    font-size: 300px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .slide_description {
+    line-height: 44px;
+  }
+
+  .apartment_list {
+    margin-top: 80px;
+  }
+
+  .contact_wrapper {
+    font-size: 16px;
+    margin-top: -50px;
+  }
+
+  .promo_section {
+    margin-bottom: 50px;
+  }
+
+  .benefit_item {
+    width: 25%;
+  }
+
+  .apartment_item {
+    height: 280px;
+  }
+
+  .apartment_title {
+    font-size: 20px;
+    padding: 30px 40px 40px;
+  }
+
+  .see_section {
+    padding: 140px 0;
+  }
+
+  .input_container,
+  .submit_btn {
+    max-width: 210px;
+  }
+
+  .see_description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .video_section,
+  .map_section,
+  .questions_section {
+    margin-bottom: 140px;
+  }
+
+  #video_wrapper {
+    width: 480px;
+    height: 400px;
+
+    &.wide {
+      width: 76%;
+    }
+  }
+
+  #play_btn {
+    width: 80px;
+    height: 80px;
+  }
+
+  .map_wrapper {
+    margin-top: 80px;
+
+    iframe {
+      height: 320px;
+    }
+  }
+
+  .footer_col {
+    width: 23%;
+
+    &.last_col {
+      flex-grow: 1;
+    }
+  }
+
+  footer {
+    padding: 50px 35px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+
+  header {
+    padding: 15px 0;
+  }
+
+  .main_menu li {
+    margin: 0 10px;
+
+    a {
+      padding: 15px 0px;
+      text-align: center;
+    }
+  }
+
+  .main_logo {
+    svg {
+      max-width: 110px;
+      margin-bottom: 10px;
+    }
+
+    font-size: 11px;
+    letter-spacing: 0;
+  }
+
+  .slide_description {
+    line-height: 38px;
+  }
+
+  #mouse_icon {
+    display: none;
+  }
+
+  .swiper-container {
+    min-height: 520px;
+  }
+
+  .contact_wrapper {
+    padding: 0;
+
+    a {
+      font-size: 14px;
+    }
+  }
+
+  .benefit_icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .benefit_description {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .benefits_section {
+    padding: 80px 0;
+  }
+
+  .section_title {
+    font-size: 30px;
+  }
+
+  .apartment_list,
+  .map_wrapper {
+    margin-top: 60px;
+  }
+
+  .apartment_item {
+    width: 100%;
+    height: 360px;
+  }
+
+  .see_form {
+
+    .input_container,
+    .submit_btn {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .form_text {
+      order: 4;
+    }
+  }
+
+  .see_section {
+    padding: 100px 0;
+  }
+
+  .video_section,
+  .map_section,
+  .questions_section {
+    margin-bottom: 100px;
+  }
+
+  #video_wrapper {
+    width: 440px;
+    height: 380px;
+
+    &.wide {
+      width: 100%;
+    }
+  }
+
+  .questions_form {
+    flex-wrap: wrap;
+
+    .form_text {
+      order: 4;
+      max-width: 100%;
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+
+  .footer_col {
+    font-size: 12px;
+
+    &:first-child {
+      width: 20%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .main_logo svg {
+    margin-bottom: 5px;
+  }
+
+  header {
+    padding: 10px 0;
+
+    &.change {
+      padding-top: 10px;
+
+      .main_logo {
+        transform: none;
+      }
+    }
+  }
+
+  .hamburger {
+    display: inline-block;
+    overflow: visible;
+    margin: 0;
+    padding: 9px 15px 6px;
+    cursor: pointer;
+    transition-timing-function: linear;
+    transition-duration: .15s;
+    transition-property: opacity, filter;
+    margin-bottom: 1px;
+    border: 0;
+    background-color: transparent;
+    z-index: 4;
+    position: relative;
+    margin-left: 20px;
+
+    .hamburger-box {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 24px;
+      text-align: center;
+
+      .hamburger-inner {
+        transition: transform 175ms cubic-bezier(.55, .055, .675, .19) .55s, background-color 0s linear 175ms;
+        position: absolute;
+        width: 40px;
+        height: 4px;
+        background-color: #fff;
+        top: 50%;
+        display: block;
+        margin-top: -2px;
+
+        &:before {
+          display: block;
+          content: "";
+          position: absolute;
+          width: 40px;
+          height: 4px;
+          background-color: #fff;
+          transition: top 175ms ease-in 175ms, transform 175ms cubic-bezier(.55, .055, .675, .19) 0s;
+          top: -10px;
+        }
+
+        &:after {
+          display: block;
+          content: "";
+          bottom: -10px;
+          position: absolute;
+          width: 40px;
+          height: 4px;
+          background-color: #fff;
+          bottom: -10px;
+          transition: bottom 175ms ease-in 175ms, transform 175ms cubic-bezier(.55, .055, .675, .19) 0s;
+        }
+      }
+    }
+
+    &.is-active {
+      .hamburger-box .hamburger-inner {
+        transition: transform 75ms cubic-bezier(.215, .61, .355, 1) 0s, background-color 0s linear .15s;
+        transform: rotate(90deg);
+        background-color: transparent !important;
+
+        &:after {
+          background-color: $gold;
+          bottom: 0;
+          transition: bottom 75ms ease-out .1s, transform 75ms cubic-bezier(.215, .61, .355, 1) .515s;
+          transform: rotate(45deg);
+        }
+
+        &:before {
+          background-color: $gold;
+          top: 0;
+          transition: top 75ms ease-out .1s, transform 75ms cubic-bezier(.215, .61, .355, 1) .515s;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+
+  .main_menu {
+    position: absolute;
+    width: 100vw;
+    left: -100%;
+    padding: 0;
+    top: 62px;
+    background-color: $dark_blue;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px calc((100vw - 510px) / 2);
+
+    li {
+      margin: 0;
+
+      a {
+        padding: 10px 0;
+        font-size: 16px;
+      }
+    }
+
+    &.open {
+      left: 0;
+      opacity: 1;
+    }
+  }
+
+  .swiper-container {
+    min-height: 400px;
+    height: 65vw;
+  }
+
+  .slide_description {
+    line-height: 1.2;
+  }
+
+  .contact_wrapper {
+    margin-top: 0;
+  }
+
+  .slide_description {
+    max-width: 500px;
+  }
+
+  .promo_section {
+    margin-top: 30px;
+  }
+
+  .benefits_section .container::before,
+  .video_section .container::before,
+  .apartments_section .container::before,
+  .map_section .container::before {
+    display: none;
+  }
+
+  .benefits_wrapper {
+    flex-wrap: wrap;
+  }
+
+  .benefit_icon {
+    margin-bottom: 20px;
+  }
+
+  .benefit_description {
+    font-size: 14px;
+  }
+
+  .benefit_item {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .section_title {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .apartment_item {
+    height: 300px;
+  }
+
+  .apartment_title {
+    font-size: 18px;
+  }
+
+  #video_wrapper {
+    width: 360px;
+    height: 300px;
+  }
+
+  #play_btn {
+    width: 70px;
+    height: 70px;
+  }
+
+  .map_wrapper iframe {
+    height: 280px;
+  }
+
+  .questions_form {
+    .input_container {
+      width: calc(50% - 15px);
+      max-width: none;
+
+      &.form_text {
+        width: 100%;
+        max-width: none;
+      }
+    }
+
+    .submit_btn {
+      max-width: none;
+      margin-top: 20px;
+    }
+  }
+
+  footer {
+    padding: 40px 15px 0px;
+  }
+
+  .footer_col {
+    width: 50% !important;
+    margin-bottom: 30px;
+  }
+
+  .footer_menu li {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .main_menu {
+    padding: 20px 15px;
+  }
+
+  .contact_wrapper {
+    flex-direction: column;
+
+    a {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .benefits_section {
+    padding: 60px 0;
+  }
+
+  .benefit_item {
+    width: 100%;
+  }
+
+  .section_title {
+    font-size: 22px;
+  }
+
+  .apartment_item {
+    height: 55vw;
+    min-height: 220px;
+  }
+
+  .apartment_title {
+    font-size: 14px;
+    padding: 20px;
+    line-height: 22px;
+  }
+
+  .see_section {
+    padding: 80px 0;
+  }
+
+  .see_description {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+
+  .see_form {
+    max-width: none;
+  }
+
+  #video_wrapper {
+    width: 100%;
+    height: 50vw;
+  }
+
+  #play_btn {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer_col {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .questions_form {
+    .input_container {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .submit_btn {
+      margin-top: 0;
+    }
+  }
+}
